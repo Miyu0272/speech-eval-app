@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>話速評価ツール</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>話速評価ツール</h1>
+
+  <label for="videoInput">動画URL：</label>
+  <input type="text" id="videoInput" placeholder="https://..." />
+
+  <button id="startBtn">話速解析開始</button>
+
+  <div id="resultArea">
+    <p id="result">認識結果: （ここに音声認識結果が表示されます）</p>
+    <p id="speedDisplay">話速: --語/秒</p>
+  </div>
+
+  <label for="speedScore">話速評価スコア:</label>
+  <input type="range" min="1" max="5" value="3" id="speedScore" />
+
+  <p id="feedbackComment">AIコメント: ここにフィードバックが表示されます。</p>
+
+  <script src="script.js"></script>
+</body>
+</html>

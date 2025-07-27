@@ -1,0 +1,26 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 20px;
+  background-color: #f4f8fc;
+  color: #333;
+}
+
+input[type="text"], input[type="range"] {
+  width: 300px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#resultArea {
+  margin-top: 20px;
+  background-color: #eef;
+  padding: 10px;
+  border-radius: 6px;
+}
